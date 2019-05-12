@@ -1,0 +1,15 @@
+SizePolicy:
+
+sizeHint(期望尺寸)：sizeHint对于大多数的控件来说都是只读的；
+
+读取期望尺寸：
+单位是pixel
+self.textEdit.sizeHint().width()
+self.textEdit.sizeHint().height()
+print("The textEdit SizeHint width  is ",self.textEdit.sizeHint().width(), "pixel")
+print("The textEdit SizeHint height is ",self.textEdit.sizeHint().height(), "pixel")
+
+最小的期望尺寸：
+
+self.textEdit.minimumSizeHint().width()
+self.textEdit.minimumSizeHint().height()

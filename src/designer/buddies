@@ -1,0 +1,3 @@
+可以通过热键切换输入框的焦点：
+那么可以在Lable(&A)  然后再把这个LabelA与Line Edit建立buddies,后续在程序启动以后，可以通过Alt+A切换到LableA对应的兄弟；
+SecondWindow.py即为这个实例
