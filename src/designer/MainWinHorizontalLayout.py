@@ -1,15 +1,14 @@
 import sys
-import FirstUI
-import SecondWindow
+import test_slot
 from PyQt5.QtWidgets import QApplication,QMainWindow
-
 if __name__ == '__main__':
+
     #创联QApplication的实例
     app = QApplication(sys.argv)
-    mainWindow = QMainWindow()
+    mainwindow = QMainWindow()
     #获取FirstUI中的Ui_MainWindow类
-    ui = SecondWindow.Ui_MainWindow()
+    ui = test_slot.Ui_MainWindow()
     #向主窗口添加控件
-    ui.setupUi(mainWindow)
-    mainWindow.show()
+    ui.setupUi(mainwindow)
+    mainwindow.show()
     sys.exit(app.exec_())
